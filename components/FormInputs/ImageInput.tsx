@@ -109,7 +109,7 @@ export default function ImageInput({
                 },
                 allowedContent: () => "", // Hide the allowed content text
               }}
-              onBeforeUploadBegin={() => {
+              onUploadBegin={() => {
                 handleUploadStart();
               }}
               onClientUploadComplete={handleUploadComplete}
@@ -137,7 +137,7 @@ export default function ImageInput({
                   },
                   allowedContent: () => "", // Hide the allowed content text
                 }}
-                onBeforeUploadBegin={() => {
+                onUploadBegin={() => {
                   handleUploadStart();
                 }}
                 onClientUploadComplete={handleUploadComplete}
