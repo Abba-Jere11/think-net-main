@@ -9,7 +9,7 @@ import { cn } from "@/lib/utils";
 type ImageInputProps = {
   title: string;
   imageUrl: string;
-  setImageUrl: any;
+  setImageUrl: (url: string) => void; // Fixed: Proper type definition
   endpoint: any;
   className?: string;
 };
